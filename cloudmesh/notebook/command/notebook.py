@@ -28,6 +28,7 @@ class NotebookCommand(PluginCommand):
               -f      specify the file
 
         """
+        """
         arguments.FILE = arguments['--file'] or None
 
         VERBOSE(arguments)
@@ -42,5 +43,6 @@ class NotebookCommand(PluginCommand):
             print("option b")
             m.list("just calling list without parameter")
 
-        Console.error("This is just a sample")
+        """
+        Console.error("This command is not implemented yet")
         return ""
