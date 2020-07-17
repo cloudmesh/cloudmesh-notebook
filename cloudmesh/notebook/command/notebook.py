@@ -1,7 +1,7 @@
 from __future__ import print_function
 from cloudmesh.shell.command import command
 from cloudmesh.shell.command import PluginCommand
-from cloudmesh.notebook.api.manager import Manager
+# from cloudmesh.notebook.api.manager import Manager
 from cloudmesh.common.console import Console
 from cloudmesh.common.util import path_expand
 from pprint import pprint
